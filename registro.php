@@ -8,6 +8,7 @@ if(isset($_POST["nombre"])){
   $hashed_password = password_hash($_POST["password"], PASSWORD_DEFAULT);
   $stm->bindParam("password", $hashed_password);  
   $stm->execute();
+  
 }
 
 ?>
