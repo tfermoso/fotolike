@@ -1,3 +1,8 @@
+<?php
+if(isset($_POST["nombre"])){
+    
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
